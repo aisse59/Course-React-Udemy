@@ -38,7 +38,7 @@ onSearchChange = (event) => {
 }
 
   render(){ 
-    console.log('render');
+    console.log('2');
 
     const {monsters, searchField} = this.state;
     const {onSearchChange} = 
