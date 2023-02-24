@@ -1,21 +1,22 @@
 import { Component } from "react";
 
-class CardList extends Component {
+import './card-list.styles.css';
+import Card from "../card/card.component";
 
+class CardList extends Component {
     render() {
-        console.log(this.props.monsters);
-        console.log('render from cardlist');
-        const{monsters} = this.props
+        const{monsters} = this.props;
         
         return (
-        <div> 
-           {monsters.map(monster => (
-            <h1 key={monster.id}>{monster.name} </h1>
-           ))}
-           {/* <AnotherComponent/> */}
+        <div className="card-list"> 
+           {monsters.map((monster) => {  
+          
+            
+            return<Card monster={monster}/>
+            
+            })}
         </div>
         );
-        
     }
 }
 
