@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Course-React-Udemy/static/css/main.03e2d06e.css",
+    "main.js": "/Course-React-Udemy/static/js/main.e1922791.js",
+    "static/js/787.e4e9b7ff.chunk.js": "/Course-React-Udemy/static/js/787.e4e9b7ff.chunk.js",
+    "index.html": "/Course-React-Udemy/index.html",
+    "main.03e2d06e.css.map": "/Course-React-Udemy/static/css/main.03e2d06e.css.map",
+    "main.e1922791.js.map": "/Course-React-Udemy/static/js/main.e1922791.js.map",
+    "787.e4e9b7ff.chunk.js.map": "/Course-React-Udemy/static/js/787.e4e9b7ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03e2d06e.css",
+    "static/js/main.e1922791.js"
+  ]
+}
